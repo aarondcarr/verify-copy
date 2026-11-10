@@ -1,0 +1,68 @@
+[
+  {
+    "split": "holdout",
+    "category": "residual55",
+    "surface": "proposal",
+    "should_rewrite": true,
+    "input": "Spec-driven development is more than a process, it's a way of working. Rather than simply generating code, teams align on intent first. This matters because rework is the largest hidden cost. Looking ahead, we'll extend the pattern to testing.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "holdout-residual55-01"
+  },
+  {
+    "split": "holdout",
+    "category": "residual55",
+    "surface": "email",
+    "should_rewrite": true,
+    "input": "Following up on Tuesday. Why the timeline matters: your fiscal year closes in March. Our plan is steady and dependable. What comes next is a joint review of the backlog.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "holdout-residual55-02"
+  },
+  {
+    "split": "holdout",
+    "category": "residual55",
+    "surface": "slack",
+    "should_rewrite": true,
+    "input": "This matters: the hook is more than a check, it's a cost control. adds another layer of safety too. looking ahead, haiku might do the gate.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "holdout-residual55-03"
+  },
+  {
+    "split": "holdout",
+    "category": "residual55",
+    "surface": "workshop",
+    "should_rewrite": true,
+    "input": "Why evals matter\n\nAn eval set is more than a test suite — it's institutional memory. Just as important, it gives the team a dependable signal. This matters most after a model upgrade.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "holdout-residual55-04"
+  },
+  {
+    "split": "holdout",
+    "category": "residual55",
+    "surface": "lesson",
+    "should_rewrite": true,
+    "input": "Context is more than tokens, it's attention. This matters because every line in CLAUDE.md competes for it. Rather than simply adding rules, prune the ones that no longer fire.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "holdout-residual55-05"
+  },
+  {
+    "split": "holdout",
+    "category": "residual55",
+    "surface": "proposal",
+    "should_rewrite": true,
+    "input": "Our delivery model is dependable and steady. Looking ahead, the platform adds another layer of governance. What comes next: a two-week Foundation Catalyst.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "holdout-residual55-06"
+  }
+]

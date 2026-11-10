@@ -1,0 +1,46 @@
+[
+  {
+    "split": "holdout",
+    "category": "structural",
+    "surface": "slack",
+    "should_rewrite": true,
+    "input": "**Status:** done\n**Blockers:** none\n**Next:** none\n\n**Summary:** The task is done and there are no blockers or next steps.",
+    "notes": "Over-structured and recapped; no lexical tells.",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "holdout-structural-01"
+  },
+  {
+    "split": "holdout",
+    "category": "structural",
+    "surface": "email",
+    "should_rewrite": true,
+    "input": "To answer your question about pricing: you asked about pricing. Our pricing is fixed-fee. To recap, pricing is fixed-fee, which answers your question about pricing.",
+    "notes": "Restate/recap loop.",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "holdout-structural-02"
+  },
+  {
+    "split": "holdout",
+    "category": "structural",
+    "surface": "proposal",
+    "should_rewrite": true,
+    "input": "## Vision\nA better future.\n\n## Mission\nDeliver better outcomes.\n\n## Values\nInnovation, collaboration, and excellence.\n\n## Summary\nVision, mission, and values aligned for innovation, collaboration, and excellence.",
+    "notes": "Empty scaffolding and padded triad.",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "holdout-structural-03"
+  },
+  {
+    "split": "holdout",
+    "category": "structural",
+    "surface": "workshop",
+    "should_rewrite": true,
+    "input": "We will learn, build, and grow. Learning drives building. Building drives growth. Growth drives learning. Together these create a cycle of learning, building, and growth.",
+    "notes": "Metronomic triad loop.",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "holdout-structural-04"
+  }
+]

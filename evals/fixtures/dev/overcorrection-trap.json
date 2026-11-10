@@ -1,0 +1,12 @@
+{
+  "id": "overcorrection-trap",
+  "surface": "proposal",
+  "model_hint": "human",
+  "should_rewrite": false,
+  "notes": "A few adverbs and one em dash are not slop. A ban-all rule would fail this.",
+  "input": "We should actually ship the classifier first — the rewrite path can wait until the gate is calibrated on real drafts.",
+  "split": "dev",
+  "category": "overcorrection",
+  "synthetic": true,
+  "origin": "starter set (first draft)"
+}

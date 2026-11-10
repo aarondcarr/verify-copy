@@ -1,0 +1,68 @@
+[
+  {
+    "split": "holdout",
+    "category": "classic",
+    "surface": "email",
+    "should_rewrite": true,
+    "input": "I hope you're doing well! I just wanted to quickly circle back and touch base regarding the proposal. Here's what I think: it's honestly a game-changer for your team. Let me know if you'd like me to dive deeper!",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "holdout-classic-01"
+  },
+  {
+    "split": "holdout",
+    "category": "classic",
+    "surface": "proposal",
+    "should_rewrite": true,
+    "input": "The real question is not whether to adopt AI, it's how fast. Make no mistake, the landscape is shifting. Let that sink in. Our team will help you navigate it and lean into the opportunity.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "holdout-classic-02"
+  },
+  {
+    "split": "holdout",
+    "category": "classic",
+    "surface": "slack",
+    "should_rewrite": true,
+    "input": "ok so here's the thing — the rollback literally saved us. not the alerting. the rollback. full stop.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "holdout-classic-03"
+  },
+  {
+    "split": "holdout",
+    "category": "classic",
+    "surface": "lesson",
+    "should_rewrite": true,
+    "input": "In this section we'll unpack evaluation. It turns out evals are simply the most important part of any AI system. As we'll see, they're crucially load-bearing.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "holdout-classic-04"
+  },
+  {
+    "split": "holdout",
+    "category": "classic",
+    "surface": "workshop",
+    "should_rewrite": true,
+    "input": "Let me walk you through today. The uncomfortable truth is most teams genuinely struggle with agents. This matters because the gap is growing. Hope this helps set the stage!",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "holdout-classic-05"
+  },
+  {
+    "split": "holdout",
+    "category": "classic",
+    "surface": "email",
+    "should_rewrite": true,
+    "input": "Thanks so much for your time today! I really wanted to say that this partnership is truly exciting. Moving forward, we'll do a deep dive into your architecture. Happy to dive deeper on anything.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "holdout-classic-06"
+  }
+]

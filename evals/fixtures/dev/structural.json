@@ -1,0 +1,46 @@
+[
+  {
+    "split": "dev",
+    "category": "structural",
+    "surface": "slack",
+    "should_rewrite": true,
+    "input": "**Summary**\n- Gate threshold: updated\n- Fixtures: added\n- Next steps: review\n\n**Key takeaways**\n- Threshold is better\n- Fixtures are better\n- Review is next",
+    "notes": "Over-structured one-line update; no lexical tells.",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "dev-structural-01"
+  },
+  {
+    "split": "dev",
+    "category": "structural",
+    "surface": "email",
+    "should_rewrite": true,
+    "input": "You asked whether we can move Thursday's session. To summarize your question: you would like to know if the session can move. Yes, we can move it to Friday at 10. In summary, Friday at 10 works, and we can move the session.",
+    "notes": "Restates the ask, recaps the answer; no listed phrases.",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "dev-structural-02"
+  },
+  {
+    "split": "dev",
+    "category": "structural",
+    "surface": "proposal",
+    "should_rewrite": true,
+    "input": "## Overview\nThis section provides an overview.\n\n## Approach\nOur approach is outlined below.\n\n## Benefits\nThe benefits are speed, quality, and alignment.\n\n## Conclusion\nIn conclusion, the approach delivers speed, quality, and alignment.",
+    "notes": "Header scaffolding around no content.",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "dev-structural-03"
+  },
+  {
+    "split": "dev",
+    "category": "structural",
+    "surface": "workshop",
+    "should_rewrite": true,
+    "input": "Agenda: Discover, Design, Deliver. In Discover we explore. In Design we define. In Deliver we drive. Each phase builds alignment, momentum, and clarity across stakeholders, leaders, and teams.",
+    "notes": "Padded triads, no listed phrases.",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "dev-structural-04"
+  }
+]

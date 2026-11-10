@@ -1,0 +1,12 @@
+{
+  "id": "classic-throatclear",
+  "surface": "proposal",
+  "model_hint": "sonnet",
+  "should_rewrite": true,
+  "notes": "Classic opener plus sign-off.",
+  "input": "Here's the thing: the implications of this migration are significant. Let me walk you through the landscape, unpack the tradeoffs, and then circle back on next steps. Hope this helps!",
+  "split": "dev",
+  "category": "classic",
+  "synthetic": true,
+  "origin": "starter set (first draft)"
+}

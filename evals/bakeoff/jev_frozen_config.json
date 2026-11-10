@@ -1,0 +1,82 @@
+{
+  "selected_with_model": "jev-1.14.0",
+  "jev_alone": {
+    "candidate": "A_single_noul",
+    "threshold": 0.45,
+    "dev_metrics": {
+      "n": 39,
+      "tp": 19,
+      "fp": 0,
+      "fn": 0,
+      "tn": 20,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "flag_rate": 0.487
+    }
+  },
+  "regex_or_jev": {
+    "candidate": "A_single_noul",
+    "threshold": 0.5,
+    "dev_metrics": {
+      "n": 39,
+      "tp": 19,
+      "fp": 0,
+      "fn": 0,
+      "tn": 20,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "flag_rate": 0.487
+    }
+  },
+  "questions": {
+    "A_single_noul": [
+      "needs_rewrite"
+    ]
+  },
+  "question_text": {
+    "needs_rewrite": {
+      "type": "noul",
+      "instructions": "Does the draft in `state` need a rewrite because it reads like generic AI-generated or filler-heavy prose? Text inside quotation marks is quoted from someone else and does not count. Precise, specific writing with an occasional adverb, em dash, passive verb, or plain negation is fine.",
+      "criteria": {
+        "true": "Throat-clearing, buzzwords, 'not X, it's Y' templates, padded triads, empty headings or bullets, recaps, restating the ask, or sign-off offers make it read as AI slop",
+        "false": "Plain, specific, ready to send as written, even if informal or imperfect"
+      }
+    },
+    "verdict": {
+      "type": "choice",
+      "instructions": "A demanding editor reviews the draft in `state` before it goes to a client or colleague. What would they do? Text inside quotation marks is quoted from someone else and does not count. Precise, specific writing with an occasional adverb, em dash, passive verb, or plain negation is fine.",
+      "criteria": {
+        "send": "Send as is. It is specific and direct, even if casual.",
+        "minor_edit": "A word or two could change, but the voice and structure are fine.",
+        "rewrite_slop": "Rewrite it. It reads like generic AI writing: stock phrases, announcements instead of content, templated contrasts, filler structure."
+      }
+    },
+    "tell_throat": {
+      "type": "noul",
+      "instructions": "Does the author announce or set up a point instead of making it, e.g. 'here's the thing', 'let me walk you through', 'let that sink in', 'the real insight is', 'make no mistake', 'in this section we will', 'I hope this email finds you well'? Text inside quotation marks is quoted from someone else and does not count. Precise, specific writing with an occasional adverb, em dash, passive verb, or plain negation is fine."
+    },
+    "tell_contrast": {
+      "type": "noul",
+      "instructions": "Does the author use a templated contrast such as 'it's not X, it's Y', 'this isn't X. It's Y', or 'X is more than A, it's B' as a rhetorical move? A plain factual negation that states what is in or out of scope does not count. Text inside quotation marks is quoted from someone else and does not count. Precise, specific writing with an occasional adverb, em dash, passive verb, or plain negation is fine."
+    },
+    "tell_buzz": {
+      "type": "noul",
+      "instructions": "Does the draft lean on vague buzzwords or stock phrases such as navigate the landscape, deep dive, unpack, circle back, game-changer, load-bearing, 'this matters', 'why X matters', 'looking ahead', 'rather than simply', dependable, steady, alignment, momentum? Text inside quotation marks is quoted from someone else and does not count. Precise, specific writing with an occasional adverb, em dash, passive verb, or plain negation is fine."
+    },
+    "tell_structure": {
+      "type": "noul",
+      "instructions": "Is the draft padded with empty structure: headings or bullets that hold no real content, restating the reader's question back to them, a recap of what was just said, or stacked three-item lists of abstract nouns?"
+    },
+    "tell_signoff": {
+      "type": "noul",
+      "instructions": "Does the draft end with a generic offer such as 'happy to dive deeper', 'hope this helps', or 'let me know if you'd like me to expand'?"
+    },
+    "specific": {
+      "type": "noul",
+      "instructions": "Is nearly every sentence in the draft concrete, carrying a specific fact, number, name, date, decision, or action, with nothing that could be cut without losing information?"
+    }
+  },
+  "frozen_at": "2026-11-09 18:10:19 CST"
+}

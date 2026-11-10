@@ -1,0 +1,42 @@
+{
+ "stop-slop SKILL.md": {
+  "words": 361,
+  "chars": 2629,
+  "est_tokens": 650
+ },
+ "stop-slop references (3 files)": {
+  "words": 1634,
+  "chars": 9854,
+  "est_tokens": 2944
+ },
+ "stop-slop full (SKILL+refs)": {
+  "words": 1995,
+  "chars": 12483,
+  "est_tokens": 3595
+ },
+ "verify-copy SKILL.md": {
+  "words": 598,
+  "chars": 3742,
+  "est_tokens": 1077
+ },
+ "verify-copy patterns.md": {
+  "words": 343,
+  "chars": 2041,
+  "est_tokens": 618
+ },
+ "verify-copy prefilter.md": {
+  "words": 307,
+  "chars": 1790,
+  "est_tokens": 553
+ },
+ "style contract (5 lines)": {
+  "words": 77,
+  "chars": 404,
+  "est_tokens": 139
+ },
+ "stop-slop frontmatter (always listed)": {
+  "words": 36,
+  "chars": 281,
+  "est_tokens": 65
+ }
+}

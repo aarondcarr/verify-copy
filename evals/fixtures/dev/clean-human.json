@@ -1,0 +1,12 @@
+{
+  "id": "clean-human",
+  "surface": "email",
+  "model_hint": "human",
+  "should_rewrite": false,
+  "notes": "Direct, specific, one ask. Must stay a pass so we do not over-correct.",
+  "input": "Sam, the design review is on the calendar for Thursday at 8:00 AM CT. I'll have a written brief and a small eval set ready. If 45 minutes is tight, we can start with the gate design and leave the fixture review for follow-up.",
+  "split": "dev",
+  "category": "clean",
+  "synthetic": true,
+  "origin": "starter set (first draft)"
+}

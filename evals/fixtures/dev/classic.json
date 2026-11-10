@@ -1,0 +1,68 @@
+[
+  {
+    "split": "dev",
+    "category": "classic",
+    "surface": "slack",
+    "should_rewrite": true,
+    "input": "Here's the thing — the deploy didn't fail because of the code. It failed because of the pipeline. Let that sink in. Happy to dive deeper if useful!",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "dev-classic-01"
+  },
+  {
+    "split": "dev",
+    "category": "classic",
+    "surface": "email",
+    "should_rewrite": true,
+    "input": "Hi Dana, I hope this email finds you well. I wanted to circle back on our conversation and unpack the next steps as we navigate the migration landscape together. Moving forward, we will lean into a phased approach. Hope this helps!",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "dev-classic-02"
+  },
+  {
+    "split": "dev",
+    "category": "classic",
+    "surface": "proposal",
+    "should_rewrite": true,
+    "input": "Make no mistake: modernizing your data platform is a game-changer. The uncomfortable truth is that legacy ETL is holding you back. In this section we'll walk through why the stakes are high and the implications are significant.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "dev-classic-03"
+  },
+  {
+    "split": "dev",
+    "category": "classic",
+    "surface": "lesson",
+    "should_rewrite": true,
+    "input": "Let me walk you through the basics of prompt caching. It turns out that caching is honestly one of the most powerful levers you have. Full stop. As we'll see, it really changes everything.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "dev-classic-04"
+  },
+  {
+    "split": "dev",
+    "category": "classic",
+    "surface": "workshop",
+    "should_rewrite": true,
+    "input": "Welcome! In this section we'll do a deep dive into spec-driven development. The real insight is simple: specs are load-bearing. By the end, you'll be able to navigate the landscape with confidence.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "dev-classic-05"
+  },
+  {
+    "split": "dev",
+    "category": "classic",
+    "surface": "email",
+    "should_rewrite": true,
+    "input": "Let me be clear: we are genuinely committed to your success. This matters because every week of delay costs you. Let me know if you'd like me to expand on any of these points.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-claude5-style",
+    "id": "dev-classic-06"
+  }
+]

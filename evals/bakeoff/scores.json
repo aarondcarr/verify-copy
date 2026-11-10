@@ -1,0 +1,3071 @@
+{
+ "cells": {
+  "claude-haiku-5-5|S1_default|holdout": {
+   "model": "claude-haiku-5-5",
+   "system": "S1_default",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 11,
+    "fp": 5,
+    "fn": 5,
+    "tn": 13,
+    "precision": 0.6875,
+    "recall": 0.6875,
+    "f1": 0.6875
+   },
+   "slop_rewritten": [
+    0.6875,
+    11,
+    16
+   ],
+   "clean_rewritten": [
+    0.2777777777777778,
+    5,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.8125,
+    13,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.875,
+    14,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.9375,
+    15,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.125,
+    2,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.0625,
+    1,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.0625,
+    1,
+    16
+   ],
+   "meaning_flag_on_clean_either": 2,
+   "cost_per_model_call": 0.00016982058823529413,
+   "clean_judged_slop_after_opus": [
+    0.05555555555555555,
+    1,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.1111111111111111,
+    2,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.16666666666666666,
+    3,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    0.625,
+    10,
+    16
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.5625,
+    9,
+    16
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.125,
+    2,
+    16
+   ],
+   "cost_usd": 0.0057739,
+   "input_tokens": 4649,
+   "output_tokens": 10618,
+   "model_calls": 34,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 1.8370588235294119,
+   "cost_per_1000_drafts_extrapolated": 0.16982058823529414
+  },
+  "claude-haiku-5-5|S1_default|stress": {
+   "model": "claude-haiku-5-5",
+   "system": "S1_default",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 6,
+    "fp": 2,
+    "fn": 2,
+    "tn": 2,
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1": 0.75
+   },
+   "slop_rewritten": [
+    0.75,
+    6,
+    8
+   ],
+   "clean_rewritten": [
+    0.5,
+    2,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.75,
+    6,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.875,
+    7,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.125,
+    1,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.125,
+    1,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.0,
+    0,
+    8
+   ],
+   "meaning_flag_on_clean_either": 2,
+   "cost_per_model_call": 0.000242075,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.5,
+    2,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.5,
+    2,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    0.5,
+    4,
+    8
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.625,
+    5,
+    8
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.25,
+    2,
+    8
+   ],
+   "cost_usd": 0.0029048999999999998,
+   "input_tokens": 2029,
+   "output_tokens": 5404,
+   "model_calls": 12,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 2.5124999999999997,
+   "cost_per_1000_drafts_extrapolated": 0.24207499999999998
+  },
+  "claude-haiku-5-5|S2_contract|holdout": {
+   "model": "claude-haiku-5-5",
+   "system": "S2_contract",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 16,
+    "fp": 6,
+    "fn": 0,
+    "tn": 12,
+    "precision": 0.7272727272727273,
+    "recall": 1.0,
+    "f1": 0.8421052631578948
+   },
+   "slop_rewritten": [
+    1.0,
+    16,
+    16
+   ],
+   "clean_rewritten": [
+    0.3333333333333333,
+    6,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.375,
+    6,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.4375,
+    7,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.5,
+    8,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.4375,
+    7,
+    16
+   ],
+   "meaning_flag_on_clean_either": 2,
+   "cost_per_model_call": 0.00020295294117647059,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.1111111111111111,
+    2,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.1111111111111111,
+    2,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    0.6363636363636364,
+    14,
+    22
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.7272727272727273,
+    16,
+    22
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.09090909090909091,
+    2,
+    22
+   ],
+   "cost_usd": 0.0069004,
+   "input_tokens": 9579,
+   "output_tokens": 11885,
+   "model_calls": 34,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 2.065,
+   "cost_per_1000_drafts_extrapolated": 0.20295294117647059
+  },
+  "claude-haiku-5-5|S2_contract|stress": {
+   "model": "claude-haiku-5-5",
+   "system": "S2_contract",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 8,
+    "fp": 3,
+    "fn": 0,
+    "tn": 1,
+    "precision": 0.7272727272727273,
+    "recall": 1.0,
+    "f1": 0.8421052631578948
+   },
+   "slop_rewritten": [
+    1.0,
+    8,
+    8
+   ],
+   "clean_rewritten": [
+    0.75,
+    3,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.25,
+    2,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.625,
+    5,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.5,
+    4,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.25,
+    2,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.125,
+    1,
+    8
+   ],
+   "meaning_flag_on_clean_either": 2,
+   "cost_per_model_call": 0.0002541583333333333,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.5,
+    2,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.5,
+    2,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    0.6363636363636364,
+    7,
+    11
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.6363636363636364,
+    7,
+    11
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.18181818181818182,
+    2,
+    11
+   ],
+   "cost_usd": 0.0030499,
+   "input_tokens": 3769,
+   "output_tokens": 5346,
+   "model_calls": 12,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 2.6441666666666666,
+   "cost_per_1000_drafts_extrapolated": 0.2541583333333333
+  },
+  "claude-haiku-5-5|S3_skill|holdout": {
+   "model": "claude-haiku-5-5",
+   "system": "S3_skill",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 1,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1": 0.967741935483871
+   },
+   "slop_rewritten": [
+    0.9375,
+    15,
+    16
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.25,
+    4,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.5,
+    8,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.6875,
+    11,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.4375,
+    7,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.4375,
+    7,
+    16
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.0002786205882352941,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    0.9333333333333333,
+    14,
+    15
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.8,
+    12,
+    15
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    15
+   ],
+   "cost_usd": 0.0094731,
+   "input_tokens": 46401,
+   "output_tokens": 9666,
+   "model_calls": 34,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 1.9079411764705885,
+   "cost_per_1000_drafts_extrapolated": 0.2786205882352941
+  },
+  "claude-haiku-5-5|S3_skill|stress": {
+   "model": "claude-haiku-5-5",
+   "system": "S3_skill",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "slop_rewritten": [
+    1.0,
+    8,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.125,
+    1,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.5,
+    4,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.75,
+    6,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.25,
+    2,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.25,
+    2,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.00032250000000000003,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    0.75,
+    6,
+    8
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.75,
+    6,
+    8
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "cost_usd": 0.00387,
+   "input_tokens": 16765,
+   "output_tokens": 4387,
+   "model_calls": 12,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 2.1933333333333334,
+   "cost_per_1000_drafts_extrapolated": 0.3225
+  },
+  "claude-haiku-5-5|S4_gate_v2|holdout": {
+   "model": "claude-haiku-5-5",
+   "system": "S4_gate_v2",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 14,
+    "fp": 0,
+    "fn": 2,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+   },
+   "slop_rewritten": [
+    0.875,
+    14,
+    16
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.4375,
+    7,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.5,
+    8,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.4375,
+    7,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.375,
+    6,
+    16
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.0003264066666666667,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    0.7857142857142857,
+    11,
+    14
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.7857142857142857,
+    11,
+    14
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    14
+   ],
+   "cost_usd": 0.0048961000000000005,
+   "input_tokens": 20496,
+   "output_tokens": 5693,
+   "model_calls": 15,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 1.0520588235294117,
+   "gate": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 1,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1": 0.967741935483871
+   },
+   "cost_per_1000_drafts_extrapolated": 0.14400294117647058
+  },
+  "claude-haiku-5-5|S4_gate_v2|stress": {
+   "model": "claude-haiku-5-5",
+   "system": "S4_gate_v2",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 4,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "slop_rewritten": [
+    0.0,
+    0,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    1.0,
+    8,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    1.0,
+    8,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.0,
+    0,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.0,
+    0,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.0,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    null,
+    0,
+    0
+   ],
+   "meaning_preserved_changed_sonnet": [
+    null,
+    0,
+    0
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    null,
+    0,
+    0
+   ],
+   "cost_usd": 0.0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "model_calls": 0,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 0.0,
+   "gate": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 4,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "cost_per_1000_drafts_extrapolated": 0.0
+  },
+  "claude-haiku-5-5|S4b_gate_v2_or_haiku|holdout": {
+   "model": "claude-haiku-5-5",
+   "system": "S4b_gate_v2_or_haiku",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 1,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1": 0.967741935483871
+   },
+   "slop_rewritten": [
+    0.9375,
+    15,
+    16
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.25,
+    4,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.4375,
+    7,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.75,
+    12,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.5625,
+    9,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.5,
+    8,
+    16
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.0003585125,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    15,
+    15
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.9333333333333333,
+    14,
+    15
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    15
+   ],
+   "cost_usd": 0.0066596,
+   "input_tokens": 30111,
+   "output_tokens": 7297,
+   "model_calls": 16,
+   "haiku_gate_calls": 19,
+   "mean_latency_s": 1.2705882352941178,
+   "gate": {
+    "tp": 16,
+    "fp": 0,
+    "fn": 0,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "cost_per_1000_drafts_extrapolated": 0.1958705882352941
+  },
+  "claude-haiku-5-5|S4b_gate_v2_or_haiku|stress": {
+   "model": "claude-haiku-5-5",
+   "system": "S4b_gate_v2_or_haiku",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "slop_rewritten": [
+    1.0,
+    8,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.5,
+    4,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.5,
+    4,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.375,
+    3,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.375,
+    3,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.25,
+    2,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.00029775,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    0.75,
+    6,
+    8
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.75,
+    6,
+    8
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "cost_usd": 0.0031682000000000004,
+   "input_tokens": 16532,
+   "output_tokens": 3030,
+   "model_calls": 8,
+   "haiku_gate_calls": 12,
+   "mean_latency_s": 1.335,
+   "gate": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "cost_per_1000_drafts_extrapolated": 0.2640166666666667
+  },
+  "claude-opus-5-5|S1_default|holdout": {
+   "model": "claude-opus-5-5",
+   "system": "S1_default",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 14,
+    "fp": 2,
+    "fn": 2,
+    "tn": 16,
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1": 0.875
+   },
+   "slop_rewritten": [
+    0.875,
+    14,
+    16
+   ],
+   "clean_rewritten": [
+    0.1111111111111111,
+    2,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.5,
+    8,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.5625,
+    9,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.625,
+    10,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.375,
+    6,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.375,
+    6,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.3125,
+    5,
+    16
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.004712823529411764,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    0.875,
+    14,
+    16
+   ],
+   "meaning_preserved_changed_sonnet": [
+    1.0,
+    16,
+    16
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    16
+   ],
+   "cost_usd": 0.160236,
+   "input_tokens": 4649,
+   "output_tokens": 7082,
+   "model_calls": 34,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 2.5920588235294115,
+   "cost_per_1000_drafts_extrapolated": 4.712823529411764
+  },
+  "claude-opus-5-5|S1_default|stress": {
+   "model": "claude-opus-5-5",
+   "system": "S1_default",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "slop_rewritten": [
+    1.0,
+    8,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.625,
+    5,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.625,
+    5,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.125,
+    1,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.25,
+    2,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.125,
+    1,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.006016333333333333,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    0.75,
+    6,
+    8
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.875,
+    7,
+    8
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "cost_usd": 0.072196,
+   "input_tokens": 2029,
+   "output_tokens": 3204,
+   "model_calls": 12,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 3.095833333333333,
+   "cost_per_1000_drafts_extrapolated": 6.016333333333333
+  },
+  "claude-opus-5-5|S2_contract|holdout": {
+   "model": "claude-opus-5-5",
+   "system": "S2_contract",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 16,
+    "fp": 3,
+    "fn": 0,
+    "tn": 15,
+    "precision": 0.8421052631578947,
+    "recall": 1.0,
+    "f1": 0.9142857142857143
+   },
+   "slop_rewritten": [
+    1.0,
+    16,
+    16
+   ],
+   "clean_rewritten": [
+    0.16666666666666666,
+    3,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.125,
+    2,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.1875,
+    3,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.8125,
+    13,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.625,
+    10,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.5625,
+    9,
+    16
+   ],
+   "meaning_flag_on_clean_either": 1,
+   "cost_per_model_call": 0.005145764705882353,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.1111111111111111,
+    2,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    19,
+    19
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.8421052631578947,
+    16,
+    19
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    19
+   ],
+   "cost_usd": 0.174956,
+   "input_tokens": 9579,
+   "output_tokens": 6832,
+   "model_calls": 34,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 2.4902941176470588,
+   "cost_per_1000_drafts_extrapolated": 5.145764705882353
+  },
+  "claude-opus-5-5|S2_contract|stress": {
+   "model": "claude-opus-5-5",
+   "system": "S2_contract",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "slop_rewritten": [
+    1.0,
+    8,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.125,
+    1,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.625,
+    5,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.875,
+    7,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.375,
+    3,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.375,
+    3,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.006241333333333334,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    8,
+    8
+   ],
+   "meaning_preserved_changed_sonnet": [
+    1.0,
+    8,
+    8
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "cost_usd": 0.074896,
+   "input_tokens": 3769,
+   "output_tokens": 2991,
+   "model_calls": 12,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 2.9008333333333334,
+   "cost_per_1000_drafts_extrapolated": 6.241333333333334
+  },
+  "claude-opus-5-5|S3_skill|holdout": {
+   "model": "claude-opus-5-5",
+   "system": "S3_skill",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 16,
+    "fp": 1,
+    "fn": 0,
+    "tn": 17,
+    "precision": 0.9411764705882353,
+    "recall": 1.0,
+    "f1": 0.9696969696969697
+   },
+   "slop_rewritten": [
+    1.0,
+    16,
+    16
+   ],
+   "clean_rewritten": [
+    0.05555555555555555,
+    1,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.125,
+    2,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.0625,
+    1,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.25,
+    4,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.9375,
+    15,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.75,
+    12,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.75,
+    12,
+    16
+   ],
+   "meaning_flag_on_clean_either": 1,
+   "cost_per_model_call": 0.010866588235294117,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.05555555555555555,
+    1,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    17,
+    17
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.8823529411764706,
+    15,
+    17
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    17
+   ],
+   "cost_usd": 0.369464,
+   "input_tokens": 46401,
+   "output_tokens": 9193,
+   "model_calls": 34,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 3.2505882352941176,
+   "cost_per_1000_drafts_extrapolated": 10.866588235294117
+  },
+  "claude-opus-5-5|S3_skill|stress": {
+   "model": "claude-opus-5-5",
+   "system": "S3_skill",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "slop_rewritten": [
+    1.0,
+    8,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.375,
+    3,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.625,
+    5,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.625,
+    5,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.375,
+    3,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.375,
+    3,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.01269,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    8,
+    8
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.875,
+    7,
+    8
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "cost_usd": 0.15228,
+   "input_tokens": 16765,
+   "output_tokens": 4261,
+   "model_calls": 12,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 4.395833333333333,
+   "cost_per_1000_drafts_extrapolated": 12.69
+  },
+  "claude-opus-5-5|S4_gate_v2|holdout": {
+   "model": "claude-opus-5-5",
+   "system": "S4_gate_v2",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 1,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1": 0.967741935483871
+   },
+   "slop_rewritten": [
+    0.9375,
+    15,
+    16
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.1875,
+    3,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.25,
+    4,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.375,
+    6,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.75,
+    12,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.5625,
+    9,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.5625,
+    9,
+    16
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.012526933333333334,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    15,
+    15
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.9333333333333333,
+    14,
+    15
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    15
+   ],
+   "cost_usd": 0.18790400000000002,
+   "input_tokens": 20496,
+   "output_tokens": 5296,
+   "model_calls": 15,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 1.7923529411764705,
+   "gate": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 1,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1": 0.967741935483871
+   },
+   "cost_per_1000_drafts_extrapolated": 5.526588235294118
+  },
+  "claude-opus-5-5|S4_gate_v2|stress": {
+   "model": "claude-opus-5-5",
+   "system": "S4_gate_v2",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 4,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "slop_rewritten": [
+    0.0,
+    0,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    1.0,
+    8,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    1.0,
+    8,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.0,
+    0,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.0,
+    0,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.0,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    null,
+    0,
+    0
+   ],
+   "meaning_preserved_changed_sonnet": [
+    null,
+    0,
+    0
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    null,
+    0,
+    0
+   ],
+   "cost_usd": 0.0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "model_calls": 0,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 0.0,
+   "gate": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 4,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "cost_per_1000_drafts_extrapolated": 0.0
+  },
+  "claude-opus-5-5|S4b_gate_v2_or_haiku|holdout": {
+   "model": "claude-opus-5-5",
+   "system": "S4b_gate_v2_or_haiku",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 16,
+    "fp": 0,
+    "fn": 0,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "slop_rewritten": [
+    1.0,
+    16,
+    16
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.125,
+    2,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.125,
+    2,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.25,
+    4,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.875,
+    14,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.6875,
+    11,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.6875,
+    11,
+    16
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.01187175,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    16,
+    16
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.875,
+    14,
+    16
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    16
+   ],
+   "cost_usd": 0.1909644,
+   "input_tokens": 30111,
+   "output_tokens": 5508,
+   "model_calls": 16,
+   "haiku_gate_calls": 19,
+   "mean_latency_s": 1.6438235294117647,
+   "gate": {
+    "tp": 16,
+    "fp": 0,
+    "fn": 0,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "cost_per_1000_drafts_extrapolated": 5.6166
+  },
+  "claude-opus-5-5|S4b_gate_v2_or_haiku|stress": {
+   "model": "claude-opus-5-5",
+   "system": "S4b_gate_v2_or_haiku",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "slop_rewritten": [
+    1.0,
+    8,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.25,
+    2,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.25,
+    2,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.75,
+    6,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.75,
+    6,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.75,
+    6,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.01245,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    8,
+    8
+   ],
+   "meaning_preserved_changed_sonnet": [
+    1.0,
+    8,
+    8
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "cost_usd": 0.1003772,
+   "input_tokens": 16532,
+   "output_tokens": 3228,
+   "model_calls": 8,
+   "haiku_gate_calls": 12,
+   "mean_latency_s": 2.7116666666666664,
+   "gate": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "cost_per_1000_drafts_extrapolated": 8.364766666666668
+  },
+  "claude-sonnet-5-5|S1_default|holdout": {
+   "model": "claude-sonnet-5-5",
+   "system": "S1_default",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 8,
+    "fp": 1,
+    "fn": 8,
+    "tn": 17,
+    "precision": 0.8888888888888888,
+    "recall": 0.5,
+    "f1": 0.64
+   },
+   "slop_rewritten": [
+    0.5,
+    8,
+    16
+   ],
+   "clean_rewritten": [
+    0.05555555555555555,
+    1,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.8125,
+    13,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.875,
+    14,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.9375,
+    15,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.125,
+    2,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.0625,
+    1,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.0625,
+    1,
+    16
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.0016990588235294118,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.05555555555555555,
+    1,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    9,
+    9
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.8888888888888888,
+    8,
+    9
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.1111111111111111,
+    1,
+    9
+   ],
+   "cost_usd": 0.057768,
+   "input_tokens": 4649,
+   "output_tokens": 4847,
+   "model_calls": 34,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 1.696764705882353,
+   "cost_per_1000_drafts_extrapolated": 1.6990588235294117
+  },
+  "claude-sonnet-5-5|S1_default|stress": {
+   "model": "claude-sonnet-5-5",
+   "system": "S1_default",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+   },
+   "slop_rewritten": [
+    0.875,
+    7,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.75,
+    6,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.75,
+    6,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.125,
+    1,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.25,
+    2,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.125,
+    1,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.002593166666666667,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    0.8571428571428571,
+    6,
+    7
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.8571428571428571,
+    6,
+    7
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    7
+   ],
+   "cost_usd": 0.031118,
+   "input_tokens": 2029,
+   "output_tokens": 2706,
+   "model_calls": 12,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 2.254166666666667,
+   "cost_per_1000_drafts_extrapolated": 2.593166666666667
+  },
+  "claude-sonnet-5-5|S2_contract|holdout": {
+   "model": "claude-sonnet-5-5",
+   "system": "S2_contract",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 16,
+    "fp": 1,
+    "fn": 0,
+    "tn": 17,
+    "precision": 0.9411764705882353,
+    "recall": 1.0,
+    "f1": 0.9696969696969697
+   },
+   "slop_rewritten": [
+    1.0,
+    16,
+    16
+   ],
+   "clean_rewritten": [
+    0.05555555555555555,
+    1,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.375,
+    6,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.5,
+    8,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.5625,
+    9,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.5,
+    8,
+    16
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.002312,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    0.8235294117647058,
+    14,
+    17
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.8823529411764706,
+    15,
+    17
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.058823529411764705,
+    1,
+    17
+   ],
+   "cost_usd": 0.078608,
+   "input_tokens": 9579,
+   "output_tokens": 5945,
+   "model_calls": 34,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 1.9320588235294116,
+   "cost_per_1000_drafts_extrapolated": 2.312
+  },
+  "claude-sonnet-5-5|S2_contract|stress": {
+   "model": "claude-sonnet-5-5",
+   "system": "S2_contract",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "slop_rewritten": [
+    1.0,
+    8,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.5,
+    4,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.875,
+    7,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.5,
+    4,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.375,
+    3,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.003149833333333333,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    0.875,
+    7,
+    8
+   ],
+   "meaning_preserved_changed_sonnet": [
+    1.0,
+    8,
+    8
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "cost_usd": 0.037798,
+   "input_tokens": 3769,
+   "output_tokens": 3026,
+   "model_calls": 12,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 2.3408333333333333,
+   "cost_per_1000_drafts_extrapolated": 3.149833333333333
+  },
+  "claude-sonnet-5-5|S3_skill|holdout": {
+   "model": "claude-sonnet-5-5",
+   "system": "S3_skill",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 16,
+    "fp": 1,
+    "fn": 0,
+    "tn": 17,
+    "precision": 0.9411764705882353,
+    "recall": 1.0,
+    "f1": 0.9696969696969697
+   },
+   "slop_rewritten": [
+    1.0,
+    16,
+    16
+   ],
+   "clean_rewritten": [
+    0.05555555555555555,
+    1,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.1875,
+    3,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.25,
+    4,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.75,
+    12,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.6875,
+    11,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.625,
+    10,
+    16
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.0051556470588235296,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.05555555555555555,
+    1,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    17,
+    17
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.9411764705882353,
+    16,
+    17
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    17
+   ],
+   "cost_usd": 0.175292,
+   "input_tokens": 46401,
+   "output_tokens": 8249,
+   "model_calls": 34,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 2.3185294117647057,
+   "cost_per_1000_drafts_extrapolated": 5.155647058823529
+  },
+  "claude-sonnet-5-5|S3_skill|stress": {
+   "model": "claude-sonnet-5-5",
+   "system": "S3_skill",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "slop_rewritten": [
+    1.0,
+    8,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.5,
+    4,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.625,
+    5,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.5,
+    4,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.25,
+    2,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.25,
+    2,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.005985,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    8,
+    8
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.875,
+    7,
+    8
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "cost_usd": 0.07182,
+   "input_tokens": 16765,
+   "output_tokens": 3829,
+   "model_calls": 12,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 2.8366666666666664,
+   "cost_per_1000_drafts_extrapolated": 5.984999999999999
+  },
+  "claude-sonnet-5-5|S4_gate_v2|holdout": {
+   "model": "claude-sonnet-5-5",
+   "system": "S4_gate_v2",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 1,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1": 0.967741935483871
+   },
+   "slop_rewritten": [
+    0.9375,
+    15,
+    16
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.125,
+    2,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.25,
+    4,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.75,
+    12,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.625,
+    10,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.625,
+    10,
+    16
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.006429466666666666,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    15,
+    15
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.8666666666666667,
+    13,
+    15
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    15
+   ],
+   "cost_usd": 0.096442,
+   "input_tokens": 20496,
+   "output_tokens": 5545,
+   "model_calls": 15,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 1.445,
+   "gate": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 1,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1": 0.967741935483871
+   },
+   "cost_per_1000_drafts_extrapolated": 2.836529411764706
+  },
+  "claude-sonnet-5-5|S4_gate_v2|stress": {
+   "model": "claude-sonnet-5-5",
+   "system": "S4_gate_v2",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 4,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "slop_rewritten": [
+    0.0,
+    0,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    1.0,
+    8,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    1.0,
+    8,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.0,
+    0,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.0,
+    0,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.0,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    null,
+    0,
+    0
+   ],
+   "meaning_preserved_changed_sonnet": [
+    null,
+    0,
+    0
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    null,
+    0,
+    0
+   ],
+   "cost_usd": 0.0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "model_calls": 0,
+   "haiku_gate_calls": 0,
+   "mean_latency_s": 0.0,
+   "gate": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 4,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "cost_per_1000_drafts_extrapolated": 0.0
+  },
+  "claude-sonnet-5-5|S4b_gate_v2_or_haiku|holdout": {
+   "model": "claude-sonnet-5-5",
+   "system": "S4b_gate_v2_or_haiku",
+   "split": "holdout",
+   "n": 34,
+   "n_slop": 16,
+   "n_clean": 18,
+   "rewrite_decision": {
+    "tp": 16,
+    "fp": 0,
+    "fn": 0,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "slop_rewritten": [
+    1.0,
+    16,
+    16
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    18
+   ],
+   "residual_v2_on_slop": [
+    0.1875,
+    3,
+    16
+   ],
+   "residual_judge_opus_on_slop": [
+    0.3125,
+    5,
+    16
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.375,
+    6,
+    16
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.6875,
+    11,
+    16
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.625,
+    10,
+    16
+   ],
+   "slop_fixed_faithfully_both": [
+    0.625,
+    10,
+    16
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.006030875,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    18
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    18
+   ],
+   "meaning_preserved_changed_opus": [
+    0.9375,
+    15,
+    16
+   ],
+   "meaning_preserved_changed_sonnet": [
+    0.9375,
+    15,
+    16
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    16
+   ],
+   "cost_usd": 0.0975174,
+   "input_tokens": 30111,
+   "output_tokens": 5674,
+   "model_calls": 16,
+   "haiku_gate_calls": 19,
+   "mean_latency_s": 1.3841176470588237,
+   "gate": {
+    "tp": 16,
+    "fp": 0,
+    "fn": 0,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "cost_per_1000_drafts_extrapolated": 2.8681588235294115
+  },
+  "claude-sonnet-5-5|S4b_gate_v2_or_haiku|stress": {
+   "model": "claude-sonnet-5-5",
+   "system": "S4b_gate_v2_or_haiku",
+   "split": "stress",
+   "n": 12,
+   "n_slop": 8,
+   "n_clean": 4,
+   "rewrite_decision": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "slop_rewritten": [
+    1.0,
+    8,
+    8
+   ],
+   "clean_rewritten": [
+    0.0,
+    0,
+    4
+   ],
+   "residual_v2_on_slop": [
+    0.0,
+    0,
+    8
+   ],
+   "residual_judge_opus_on_slop": [
+    0.25,
+    2,
+    8
+   ],
+   "residual_judge_sonnet_on_slop": [
+    0.5,
+    4,
+    8
+   ],
+   "slop_fixed_faithfully_opus": [
+    0.75,
+    6,
+    8
+   ],
+   "slop_fixed_faithfully_sonnet": [
+    0.5,
+    4,
+    8
+   ],
+   "slop_fixed_faithfully_both": [
+    0.5,
+    4,
+    8
+   ],
+   "meaning_flag_on_clean_either": 0,
+   "cost_per_model_call": 0.00602375,
+   "clean_judged_slop_after_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_opus": [
+    0.0,
+    0,
+    4
+   ],
+   "overcorrection_harmed_sonnet": [
+    0.0,
+    0,
+    4
+   ],
+   "meaning_preserved_changed_opus": [
+    1.0,
+    8,
+    8
+   ],
+   "meaning_preserved_changed_sonnet": [
+    1.0,
+    8,
+    8
+   ],
+   "numbers_dropped_items": 0,
+   "worse_than_original_opus": [
+    0.0,
+    0,
+    8
+   ],
+   "cost_usd": 0.0489557,
+   "input_tokens": 16532,
+   "output_tokens": 3044,
+   "model_calls": 8,
+   "haiku_gate_calls": 12,
+   "mean_latency_s": 2.0875,
+   "gate": {
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "cost_per_1000_drafts_extrapolated": 4.079641666666666
+  }
+ },
+ "judge_calibration": {
+  "claude-opus-5-5|holdout": {
+   "tp": 15,
+   "fp": 0,
+   "fn": 1,
+   "tn": 18,
+   "precision": 1.0,
+   "recall": 0.9375,
+   "f1": 0.967741935483871
+  },
+  "claude-opus-5-5|stress": {
+   "tp": 8,
+   "fp": 0,
+   "fn": 0,
+   "tn": 4,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "claude-sonnet-5-5|holdout": {
+   "tp": 16,
+   "fp": 0,
+   "fn": 0,
+   "tn": 18,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "claude-sonnet-5-5|stress": {
+   "tp": 8,
+   "fp": 0,
+   "fn": 0,
+   "tn": 4,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  }
+ },
+ "judge_agreement_slop": [
+  0.9202898550724637,
+  635,
+  690
+ ],
+ "judge_agreement_meaning_on_changed": [
+  0.8753709198813057,
+  295,
+  337
+ ],
+ "total_generation_cost_usd": 2.2252888
+}

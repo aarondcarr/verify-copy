@@ -1,0 +1,112 @@
+[
+  {
+    "split": "holdout",
+    "category": "clean",
+    "surface": "email",
+    "should_rewrite": false,
+    "input": "Hi Marcus, the load test finished overnight. p95 latency was 410 ms at 2,000 requests per second, up from 380 ms last week. The regression lines up with the logging change on the 3rd. I'd like to revert it Thursday unless your team needs that log field.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-clean-01"
+  },
+  {
+    "split": "holdout",
+    "category": "clean",
+    "surface": "slack",
+    "should_rewrite": false,
+    "input": "can someone with prod access check if the nightly batch ran? dashboard shows nothing since 2am",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-clean-02"
+  },
+  {
+    "split": "holdout",
+    "category": "clean",
+    "surface": "proposal",
+    "should_rewrite": false,
+    "input": "We will deliver three things: a Claude Code managed-settings policy for your 1,200 developers, a hook library that blocks writes outside approved paths, and a usage report your finance team can reconcile against the AWS invoice each month.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-clean-03"
+  },
+  {
+    "split": "holdout",
+    "category": "clean",
+    "surface": "lesson",
+    "should_rewrite": false,
+    "input": "Batch requests cost half the normal price but can take up to 24 hours. Use them for nightly evals and backfills. Do not use them for anything a person is waiting on.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-clean-04"
+  },
+  {
+    "split": "holdout",
+    "category": "clean",
+    "surface": "workshop",
+    "should_rewrite": false,
+    "input": "Before Thursday, install the CLI and run the login command once. If it asks for an organization, pick the one ending in -labs. We lose fifteen minutes every session to setup, and I'd rather spend them on your code.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-clean-05"
+  },
+  {
+    "split": "holdout",
+    "category": "clean",
+    "surface": "email",
+    "should_rewrite": false,
+    "input": "Sarah, I can't make the 3:00. Could we do 4:30, or tomorrow morning before 10? I've read the draft; my only real question is the data retention clause in section 6.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-clean-06"
+  },
+  {
+    "split": "holdout",
+    "category": "clean",
+    "surface": "slack",
+    "should_rewrite": false,
+    "input": "merged. reverted the threshold to 0.35 since 0.4 flagged half the clean emails",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-clean-07"
+  },
+  {
+    "split": "holdout",
+    "category": "clean",
+    "surface": "proposal",
+    "should_rewrite": false,
+    "input": "Our estimate assumes your team provides one platform engineer for 50% of their time during weeks 2 through 5. If that person is not available, the schedule slips by roughly the same number of weeks, and we will tell you as soon as we see it.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-clean-08"
+  },
+  {
+    "split": "holdout",
+    "category": "clean",
+    "surface": "lesson",
+    "should_rewrite": false,
+    "input": "Skills load their full instructions only when Claude decides they apply. The name and description are always in context, so keep those short and specific. Put long reference material in separate files the skill links to.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-clean-09"
+  },
+  {
+    "split": "holdout",
+    "category": "clean",
+    "surface": "email",
+    "should_rewrite": false,
+    "input": "Attached are the before-and-after drafts from last week. Of the 40 we ran through the gate, 6 were rewritten. I flagged two where the rewrite dropped a date; those need a human look before we trust the numbers.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-clean-10"
+  }
+]

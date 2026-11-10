@@ -1,0 +1,68 @@
+[
+  {
+    "split": "dev",
+    "category": "residual55",
+    "surface": "proposal",
+    "should_rewrite": true,
+    "input": "Claude Code adoption is more than a tooling change, it's a shift in how your teams plan and review work. This matters for three reasons: speed, quality, and governance. Looking ahead, the program adds another layer of dependable delivery.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "dev-residual55-01"
+  },
+  {
+    "split": "dev",
+    "category": "residual55",
+    "surface": "email",
+    "should_rewrite": true,
+    "input": "Thanks for the call today. Why this matters: your platform team owns the rollout, so their buy-in is the dependable path to adoption. Rather than simply piloting, we recommend a staged plan. What comes next is a scoping session on Tuesday.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "dev-residual55-02"
+  },
+  {
+    "split": "dev",
+    "category": "residual55",
+    "surface": "slack",
+    "should_rewrite": true,
+    "input": "Quick update on the eval harness. This matters because the rewrite path is expensive. The gate is more than a filter, it's a routing layer. Looking ahead, we'll tune thresholds per surface.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "dev-residual55-03"
+  },
+  {
+    "split": "dev",
+    "category": "residual55",
+    "surface": "workshop",
+    "should_rewrite": true,
+    "input": "Why governance matters\n\nGovernance is more than a checklist — it's the steady foundation that keeps agents dependable. This matters most when teams scale. Just as important, it adds another layer of trust for leadership.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "dev-residual55-04"
+  },
+  {
+    "split": "dev",
+    "category": "residual55",
+    "surface": "lesson",
+    "should_rewrite": true,
+    "input": "Hooks are more than scripts, they're guardrails. Rather than simply blocking commands, a good hook explains why. This matters because agents learn from the feedback in stderr. Looking ahead, the next lesson covers Stop hooks.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "dev-residual55-05"
+  },
+  {
+    "split": "dev",
+    "category": "residual55",
+    "surface": "proposal",
+    "should_rewrite": true,
+    "input": "Our approach is dependable, steady, and measurable. Rather than simply delivering a report, we leave a working repo. This matters: clients who finished an implementation six months ago are already behind.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-opus55-style",
+    "id": "dev-residual55-06"
+  }
+]

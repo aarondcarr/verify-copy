@@ -1,0 +1,12 @@
+{
+  "id": "residual-not-x-but-y",
+  "surface": "email",
+  "model_hint": "opus-5.5",
+  "should_rewrite": true,
+  "notes": "Residual 5.5 template plus padded triad.",
+  "input": "This isn't a tooling problem. It's a measurement problem. There are three reasons that matter: ownership, coverage, and the way teams report status. Let me know if you'd like me to expand.",
+  "split": "dev",
+  "category": "residual55",
+  "synthetic": true,
+  "origin": "starter set (first draft)"
+}

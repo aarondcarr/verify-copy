@@ -1,0 +1,90 @@
+[
+  {
+    "split": "stress",
+    "category": "unseen_slop",
+    "surface": "proposal",
+    "should_rewrite": true,
+    "input": "In today's fast-paced digital world, organizations must empower their teams to foster innovation. Our robust, seamless solution plays a pivotal role in unlocking value and driving transformation at scale.",
+    "notes": "Generic slop vocabulary not in v2 lists.",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-unseen_slop-01"
+  },
+  {
+    "split": "stress",
+    "category": "unseen_slop",
+    "surface": "email",
+    "should_rewrite": true,
+    "input": "It's worth noting that our team is uniquely positioned to support your journey. Ultimately, this engagement is a testament to our shared commitment to excellence. Please don't hesitate to reach out.",
+    "notes": "Unlisted sign-off and filler.",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-unseen_slop-02"
+  },
+  {
+    "split": "stress",
+    "category": "unseen_slop",
+    "surface": "slack",
+    "should_rewrite": true,
+    "input": "Great question! Ultimately, it boils down to alignment. At the end of the day, the key takeaway is that synergy drives results.",
+    "notes": "Unlisted cliches.",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-unseen_slop-03"
+  },
+  {
+    "split": "stress",
+    "category": "unseen_slop",
+    "surface": "lesson",
+    "should_rewrite": true,
+    "input": "Imagine a world where every agent is aligned with your goals. That's the promise of hooks. They're not merely scripts; they're a paradigm shift that empowers developers to thrive.",
+    "notes": "'not merely X; they're Y' variant, unlisted words.",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-unseen_slop-04"
+  },
+  {
+    "split": "stress",
+    "category": "unseen_slop",
+    "surface": "workshop",
+    "should_rewrite": true,
+    "input": "Today's session is designed to be a transformative experience. We'll explore key concepts, delve into best practices, and leverage real-world examples to elevate your skills to the next level.",
+    "notes": "delve/leverage/elevate not listed.",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-unseen_slop-05"
+  },
+  {
+    "split": "stress",
+    "category": "unseen_slop",
+    "surface": "proposal",
+    "should_rewrite": true,
+    "input": "Our holistic, end-to-end methodology seamlessly integrates cutting-edge AI capabilities with proven frameworks, ensuring a robust foundation for sustainable, scalable growth across your organization.",
+    "notes": "Buzzword density, no listed tells.",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-unseen_slop-06"
+  },
+  {
+    "split": "stress",
+    "category": "unseen_slop",
+    "surface": "email",
+    "should_rewrite": true,
+    "input": "I trust this message finds you in good spirits. As we embark on this exciting journey together, rest assured that our dedicated team stands ready to provide unparalleled support every step of the way.",
+    "notes": "Unlisted greeting variant.",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-unseen_slop-07"
+  },
+  {
+    "split": "stress",
+    "category": "unseen_slop",
+    "surface": "slack",
+    "should_rewrite": true,
+    "input": "Not gonna lie, this is a big deal. The fix isn't about code — it's about culture. Worth reflecting on.",
+    "notes": "Contrast with 'about' (v2 regex expects 'it's not ... it's').",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-unseen_slop-08"
+  }
+]

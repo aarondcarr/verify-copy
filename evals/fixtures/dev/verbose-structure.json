@@ -1,0 +1,12 @@
+{
+  "id": "verbose-structure",
+  "surface": "workshop",
+  "model_hint": "opus-5.5",
+  "should_rewrite": true,
+  "notes": "Opens by restating the ask, over-structures a short point.",
+  "input": "You asked how we should quality-check generated workshop notes. Here's a complete overview.\n\n## Why this matters\nThe real question is load-bearing process, and it earns its keep only if we measure it.\n\n## What we'll cover\nIn this section we'll unpack the landscape and navigate the options.",
+  "split": "dev",
+  "category": "structural",
+  "synthetic": true,
+  "origin": "starter set (first draft)"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "split": "stress",
+    "category": "long_clean",
+    "surface": "proposal",
+    "should_rewrite": false,
+    "input": "We reviewed the 37 Glue jobs in the account you shared. Twenty-eight are straightforward: they read from S3, apply a few joins, and write Parquet back to S3. We can convert those to dbt models on Redshift with little risk. Nine use custom JARs for geospatial lookups, and two of those call an internal service we have not seen. Those nine need a closer look before we commit to a date. We propose two weeks to convert the simple jobs, then a one-week spike on the nine, then a revised estimate for the rest.",
+    "notes": "Long, specific, no tells.",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-long_clean-01"
+  },
+  {
+    "split": "stress",
+    "category": "long_clean",
+    "surface": "email",
+    "should_rewrite": false,
+    "input": "Hi Jordan — thanks for sending the access logs. I went through the last thirty days. Most of the denied requests come from one CI role that still points at the old bucket name; fixing that should clear about 80% of the noise. The remaining denials are real: three engineers are trying to read production data from laptops, which your policy forbids. I'd suggest we tell them directly rather than loosen the policy. I can draft that note if you want, but it should come from your team.",
+    "notes": "Long email with two em dashes? one em dash; 'directly' adverb.",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-long_clean-02"
+  },
+  {
+    "split": "stress",
+    "category": "long_clean",
+    "surface": "workshop",
+    "should_rewrite": false,
+    "input": "We'll spend the morning on one problem: getting Claude Code to follow your team's review rules without someone repeating them in every prompt. First we'll write the rules as a short CLAUDE.md section and see where the model ignores them. Then we'll move the rules it keeps ignoring into a hook that checks the diff before commit. By lunch each team should have a working hook and a list of rules they decided were not worth enforcing. Bring a repo you can change without approval.",
+    "notes": "Long clean workshop copy.",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-long_clean-03"
+  },
+  {
+    "split": "stress",
+    "category": "long_clean",
+    "surface": "lesson",
+    "should_rewrite": false,
+    "input": "A hook is just a script that Claude Code runs at a fixed point, like before a tool call or when the agent tries to stop. It gets JSON on standard input describing what is about to happen. If it exits with code 0 the action proceeds; with code 2 it is blocked, and whatever the script printed to standard error is shown to the model as feedback. That feedback matters more than people expect, because a clear message usually fixes the behavior on the next try, while a vague one sends the agent in circles.",
+    "notes": "Contains 'just' and 'matters more' — legitimate.",
+    "synthetic": true,
+    "model_hint": "synthetic",
+    "id": "stress-long_clean-04"
+  }
+]

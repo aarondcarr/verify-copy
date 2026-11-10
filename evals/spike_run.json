@@ -1,0 +1,1082 @@
+{
+ "dev": {
+  "v1 (starter gate)": {
+   "all": {
+    "n": 39,
+    "tp": 11,
+    "fp": 1,
+    "fn": 8,
+    "tn": 19,
+    "precision": 0.917,
+    "recall": 0.579,
+    "f1": 0.71,
+    "flag_rate": 0.308
+   },
+   "classic": {
+    "n": 7,
+    "tp": 7,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "clean": {
+    "n": 11,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 11,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "overcorrection": {
+    "n": 9,
+    "tp": 0,
+    "fp": 1,
+    "fn": 0,
+    "tn": 8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.111
+   },
+   "residual55": {
+    "n": 7,
+    "tp": 3,
+    "fp": 0,
+    "fn": 4,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.429,
+    "f1": 0.6,
+    "flag_rate": 0.429
+   },
+   "structural": {
+    "n": 5,
+    "tp": 1,
+    "fp": 0,
+    "fn": 4,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1": 0.333,
+    "flag_rate": 0.2
+   }
+  },
+  "v2 (verify-copy, tuned on dev)": {
+   "all": {
+    "n": 39,
+    "tp": 18,
+    "fp": 0,
+    "fn": 1,
+    "tn": 20,
+    "precision": 1.0,
+    "recall": 0.947,
+    "f1": 0.973,
+    "flag_rate": 0.462
+   },
+   "classic": {
+    "n": 7,
+    "tp": 7,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "clean": {
+    "n": 11,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 11,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "overcorrection": {
+    "n": 9,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 9,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "residual55": {
+    "n": 7,
+    "tp": 7,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "structural": {
+    "n": 5,
+    "tp": 4,
+    "fp": 0,
+    "fn": 1,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1": 0.889,
+    "flag_rate": 0.8
+   }
+  },
+  "stop-slop presence ban-list": {
+   "all": {
+    "n": 39,
+    "tp": 10,
+    "fp": 13,
+    "fn": 9,
+    "tn": 7,
+    "precision": 0.435,
+    "recall": 0.526,
+    "f1": 0.476,
+    "flag_rate": 0.59
+   },
+   "classic": {
+    "n": 7,
+    "tp": 4,
+    "fp": 0,
+    "fn": 3,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.571,
+    "f1": 0.727,
+    "flag_rate": 0.571
+   },
+   "clean": {
+    "n": 11,
+    "tp": 0,
+    "fp": 4,
+    "fn": 0,
+    "tn": 7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.364
+   },
+   "overcorrection": {
+    "n": 9,
+    "tp": 0,
+    "fp": 9,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "residual55": {
+    "n": 7,
+    "tp": 5,
+    "fp": 0,
+    "fn": 2,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.714,
+    "f1": 0.833,
+    "flag_rate": 0.714
+   },
+   "structural": {
+    "n": 5,
+    "tp": 1,
+    "fp": 0,
+    "fn": 4,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1": 0.333,
+    "flag_rate": 0.2
+   }
+  },
+  "always rewrite (always-on skill as gate)": {
+   "all": {
+    "n": 39,
+    "tp": 19,
+    "fp": 20,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.487,
+    "recall": 1.0,
+    "f1": 0.655,
+    "flag_rate": 1.0
+   },
+   "classic": {
+    "n": 7,
+    "tp": 7,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "clean": {
+    "n": 11,
+    "tp": 0,
+    "fp": 11,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "overcorrection": {
+    "n": 9,
+    "tp": 0,
+    "fp": 9,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "residual55": {
+    "n": 7,
+    "tp": 7,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "structural": {
+    "n": 5,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   }
+  }
+ },
+ "dev_v2_misses": [
+  "dev-structural-04"
+ ],
+ "holdout": {
+  "v1 (starter gate)": {
+   "all": {
+    "n": 34,
+    "tp": 8,
+    "fp": 1,
+    "fn": 8,
+    "tn": 17,
+    "precision": 0.889,
+    "recall": 0.5,
+    "f1": 0.64,
+    "flag_rate": 0.265
+   },
+   "classic": {
+    "n": 6,
+    "tp": 6,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "clean": {
+    "n": 10,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 10,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "overcorrection": {
+    "n": 8,
+    "tp": 0,
+    "fp": 1,
+    "fn": 0,
+    "tn": 7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.125
+   },
+   "residual55": {
+    "n": 6,
+    "tp": 2,
+    "fp": 0,
+    "fn": 4,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.333,
+    "f1": 0.5,
+    "flag_rate": 0.333
+   },
+   "structural": {
+    "n": 4,
+    "tp": 0,
+    "fp": 0,
+    "fn": 4,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   }
+  },
+  "v2 (verify-copy, tuned on dev)": {
+   "all": {
+    "n": 34,
+    "tp": 15,
+    "fp": 0,
+    "fn": 1,
+    "tn": 18,
+    "precision": 1.0,
+    "recall": 0.938,
+    "f1": 0.968,
+    "flag_rate": 0.441
+   },
+   "classic": {
+    "n": 6,
+    "tp": 6,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "clean": {
+    "n": 10,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 10,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "overcorrection": {
+    "n": 8,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 8,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "residual55": {
+    "n": 6,
+    "tp": 6,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "structural": {
+    "n": 4,
+    "tp": 3,
+    "fp": 0,
+    "fn": 1,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.857,
+    "flag_rate": 0.75
+   }
+  },
+  "stop-slop presence ban-list": {
+   "all": {
+    "n": 34,
+    "tp": 12,
+    "fp": 13,
+    "fn": 4,
+    "tn": 5,
+    "precision": 0.48,
+    "recall": 0.75,
+    "f1": 0.585,
+    "flag_rate": 0.735
+   },
+   "classic": {
+    "n": 6,
+    "tp": 6,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "clean": {
+    "n": 10,
+    "tp": 0,
+    "fp": 5,
+    "fn": 0,
+    "tn": 5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.5
+   },
+   "overcorrection": {
+    "n": 8,
+    "tp": 0,
+    "fp": 8,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "residual55": {
+    "n": 6,
+    "tp": 5,
+    "fp": 0,
+    "fn": 1,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.833,
+    "f1": 0.909,
+    "flag_rate": 0.833
+   },
+   "structural": {
+    "n": 4,
+    "tp": 1,
+    "fp": 0,
+    "fn": 3,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1": 0.4,
+    "flag_rate": 0.25
+   }
+  },
+  "always rewrite (always-on skill as gate)": {
+   "all": {
+    "n": 34,
+    "tp": 16,
+    "fp": 18,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.471,
+    "recall": 1.0,
+    "f1": 0.64,
+    "flag_rate": 1.0
+   },
+   "classic": {
+    "n": 6,
+    "tp": 6,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "clean": {
+    "n": 10,
+    "tp": 0,
+    "fp": 10,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "overcorrection": {
+    "n": 8,
+    "tp": 0,
+    "fp": 8,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "residual55": {
+    "n": 6,
+    "tp": 6,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "structural": {
+    "n": 4,
+    "tp": 4,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   }
+  }
+ },
+ "holdout_v2_misses": [
+  "holdout-structural-04"
+ ],
+ "stress": {
+  "v1 (starter gate)": {
+   "all": {
+    "n": 12,
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "long_clean": {
+    "n": 4,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "unseen_slop": {
+    "n": 8,
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   }
+  },
+  "v2 (verify-copy, tuned on dev)": {
+   "all": {
+    "n": 12,
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "long_clean": {
+    "n": 4,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "unseen_slop": {
+    "n": 8,
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   }
+  },
+  "stop-slop presence ban-list": {
+   "all": {
+    "n": 12,
+    "tp": 6,
+    "fp": 4,
+    "fn": 2,
+    "tn": 0,
+    "precision": 0.6,
+    "recall": 0.75,
+    "f1": 0.667,
+    "flag_rate": 0.833
+   },
+   "long_clean": {
+    "n": 4,
+    "tp": 0,
+    "fp": 4,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "unseen_slop": {
+    "n": 8,
+    "tp": 6,
+    "fp": 0,
+    "fn": 2,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.857,
+    "flag_rate": 0.75
+   }
+  },
+  "always rewrite (always-on skill as gate)": {
+   "all": {
+    "n": 12,
+    "tp": 8,
+    "fp": 4,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.667,
+    "recall": 1.0,
+    "f1": 0.8,
+    "flag_rate": 1.0
+   },
+   "long_clean": {
+    "n": 4,
+    "tp": 0,
+    "fp": 4,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "unseen_slop": {
+    "n": 8,
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   }
+  }
+ },
+ "stress_v2_misses": [
+  "stress-unseen_slop-01",
+  "stress-unseen_slop-02",
+  "stress-unseen_slop-03",
+  "stress-unseen_slop-04",
+  "stress-unseen_slop-05",
+  "stress-unseen_slop-06",
+  "stress-unseen_slop-07",
+  "stress-unseen_slop-08"
+ ],
+ "all": {
+  "v1 (starter gate)": {
+   "all": {
+    "n": 85,
+    "tp": 19,
+    "fp": 2,
+    "fn": 24,
+    "tn": 40,
+    "precision": 0.905,
+    "recall": 0.442,
+    "f1": 0.594,
+    "flag_rate": 0.247
+   },
+   "classic": {
+    "n": 13,
+    "tp": 13,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "clean": {
+    "n": 21,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 21,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "long_clean": {
+    "n": 4,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "overcorrection": {
+    "n": 17,
+    "tp": 0,
+    "fp": 2,
+    "fn": 0,
+    "tn": 15,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.118
+   },
+   "residual55": {
+    "n": 13,
+    "tp": 5,
+    "fp": 0,
+    "fn": 8,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.385,
+    "f1": 0.556,
+    "flag_rate": 0.385
+   },
+   "structural": {
+    "n": 9,
+    "tp": 1,
+    "fp": 0,
+    "fn": 8,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.111,
+    "f1": 0.2,
+    "flag_rate": 0.111
+   },
+   "unseen_slop": {
+    "n": 8,
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   }
+  },
+  "v2 (verify-copy, tuned on dev)": {
+   "all": {
+    "n": 85,
+    "tp": 33,
+    "fp": 0,
+    "fn": 10,
+    "tn": 42,
+    "precision": 1.0,
+    "recall": 0.767,
+    "f1": 0.868,
+    "flag_rate": 0.388
+   },
+   "classic": {
+    "n": 13,
+    "tp": 13,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "clean": {
+    "n": 21,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 21,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "long_clean": {
+    "n": 4,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "overcorrection": {
+    "n": 17,
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 17,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   },
+   "residual55": {
+    "n": 13,
+    "tp": 13,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "structural": {
+    "n": 9,
+    "tp": 7,
+    "fp": 0,
+    "fn": 2,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.778,
+    "f1": 0.875,
+    "flag_rate": 0.778
+   },
+   "unseen_slop": {
+    "n": 8,
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.0
+   }
+  },
+  "stop-slop presence ban-list": {
+   "all": {
+    "n": 85,
+    "tp": 28,
+    "fp": 30,
+    "fn": 15,
+    "tn": 12,
+    "precision": 0.483,
+    "recall": 0.651,
+    "f1": 0.554,
+    "flag_rate": 0.682
+   },
+   "classic": {
+    "n": 13,
+    "tp": 10,
+    "fp": 0,
+    "fn": 3,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.769,
+    "f1": 0.87,
+    "flag_rate": 0.769
+   },
+   "clean": {
+    "n": 21,
+    "tp": 0,
+    "fp": 9,
+    "fn": 0,
+    "tn": 12,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 0.429
+   },
+   "long_clean": {
+    "n": 4,
+    "tp": 0,
+    "fp": 4,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "overcorrection": {
+    "n": 17,
+    "tp": 0,
+    "fp": 17,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "residual55": {
+    "n": 13,
+    "tp": 10,
+    "fp": 0,
+    "fn": 3,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.769,
+    "f1": 0.87,
+    "flag_rate": 0.769
+   },
+   "structural": {
+    "n": 9,
+    "tp": 2,
+    "fp": 0,
+    "fn": 7,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.222,
+    "f1": 0.364,
+    "flag_rate": 0.222
+   },
+   "unseen_slop": {
+    "n": 8,
+    "tp": 6,
+    "fp": 0,
+    "fn": 2,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.857,
+    "flag_rate": 0.75
+   }
+  },
+  "always rewrite (always-on skill as gate)": {
+   "all": {
+    "n": 85,
+    "tp": 43,
+    "fp": 42,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.506,
+    "recall": 1.0,
+    "f1": 0.672,
+    "flag_rate": 1.0
+   },
+   "classic": {
+    "n": 13,
+    "tp": 13,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "clean": {
+    "n": 21,
+    "tp": 0,
+    "fp": 21,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "long_clean": {
+    "n": 4,
+    "tp": 0,
+    "fp": 4,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "overcorrection": {
+    "n": 17,
+    "tp": 0,
+    "fp": 17,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "flag_rate": 1.0
+   },
+   "residual55": {
+    "n": 13,
+    "tp": 13,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "structural": {
+    "n": 9,
+    "tp": 9,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   },
+   "unseen_slop": {
+    "n": 8,
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "flag_rate": 1.0
+   }
+  }
+ },
+ "all_v2_misses": [
+  "dev-structural-04",
+  "holdout-structural-04",
+  "stress-unseen_slop-01",
+  "stress-unseen_slop-02",
+  "stress-unseen_slop-03",
+  "stress-unseen_slop-04",
+  "stress-unseen_slop-05",
+  "stress-unseen_slop-06",
+  "stress-unseen_slop-07",
+  "stress-unseen_slop-08"
+ ]
+}

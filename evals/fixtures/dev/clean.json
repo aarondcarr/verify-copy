@@ -1,0 +1,112 @@
+[
+  {
+    "split": "dev",
+    "category": "clean",
+    "surface": "email",
+    "should_rewrite": false,
+    "input": "Dana, attached is the revised SOW. Two changes from Friday: the discovery phase is now three weeks instead of four, and we moved the security review ahead of the pilot. Total stays at $148,000. Can you get legal comments back by the 18th?",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-clean-01"
+  },
+  {
+    "split": "dev",
+    "category": "clean",
+    "surface": "slack",
+    "should_rewrite": false,
+    "input": "pushed the new fixtures to the eval branch. 3 of them fail the gate on purpose, see notes field. I'll rerun after lunch",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-clean-02"
+  },
+  {
+    "split": "dev",
+    "category": "clean",
+    "surface": "proposal",
+    "should_rewrite": false,
+    "input": "Phase 1 stands up SSO, audit logging, and usage dashboards for 400 engineers across two AWS accounts. We will configure managed settings centrally and hand the policy repo to your platform team at the end of week two. Phase 2 starts only after your security team signs off on the logging design.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-clean-03"
+  },
+  {
+    "split": "dev",
+    "category": "clean",
+    "surface": "lesson",
+    "should_rewrite": false,
+    "input": "A PreToolUse hook runs before Claude calls a tool. If the script exits with code 2, the call is blocked and whatever the script wrote to stderr goes back to the model. Write that message for the model: say what was blocked and what to do instead.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-clean-04"
+  },
+  {
+    "split": "dev",
+    "category": "clean",
+    "surface": "workshop",
+    "should_rewrite": false,
+    "input": "Bring one real ticket from your backlog. We will write a spec for it together in the first hour, run it through Claude Code in the second, and spend the last thirty minutes reviewing the diff line by line. Laptops need repo access before the session.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-clean-05"
+  },
+  {
+    "split": "dev",
+    "category": "clean",
+    "surface": "email",
+    "should_rewrite": false,
+    "input": "Thanks for the quick turnaround on the access request. Two engineers still can't see the staging bucket: Priya and Marco. Their IAM users are in the ticket. Once they're in, we can start the load test Wednesday.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-clean-06"
+  },
+  {
+    "split": "dev",
+    "category": "clean",
+    "surface": "slack",
+    "should_rewrite": false,
+    "input": "heads up, Sonnet 5.5 broke our thinking-off config. you need between_tools now. fix is one line in the agent config, PR is up",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-clean-07"
+  },
+  {
+    "split": "dev",
+    "category": "clean",
+    "surface": "proposal",
+    "should_rewrite": false,
+    "input": "We estimate 6 to 8 weeks for the migration. The range depends on how many of the 37 Glue jobs use custom JARs; we found 9 in the sample you shared and have not reviewed the rest. We will confirm the estimate by the end of week one.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-clean-08"
+  },
+  {
+    "split": "dev",
+    "category": "clean",
+    "surface": "email",
+    "should_rewrite": false,
+    "input": "Sam, the design review is set for Thursday at 8:00 AM CT. I'll bring a one-page brief and the eval results. If 45 minutes runs short, I'd rather cover the gate design than the fixture details.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-clean-09"
+  },
+  {
+    "split": "dev",
+    "category": "clean",
+    "surface": "lesson",
+    "should_rewrite": false,
+    "input": "Prompt caching charges a write premium the first time a prefix is stored and a much smaller read price after that. For a system prompt you reuse hundreds of times an hour, the read price dominates. For a one-off request, caching costs more than it saves.",
+    "notes": "",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-clean-10"
+  }
+]

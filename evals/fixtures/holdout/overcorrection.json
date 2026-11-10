@@ -1,0 +1,90 @@
+[
+  {
+    "split": "holdout",
+    "category": "overcorrection",
+    "surface": "proposal",
+    "should_rewrite": false,
+    "input": "Migration risk is concentrated in one place — the billing service, which still writes to the legacy database directly. Everything else already goes through the API.",
+    "notes": "Single precise em dash.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-overcorrection-01"
+  },
+  {
+    "split": "holdout",
+    "category": "overcorrection",
+    "surface": "email",
+    "should_rewrite": false,
+    "input": "Just confirming: we're still on for 2 PM tomorrow? I'll send the dial-in an hour before.",
+    "notes": "Plain 'just'.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-overcorrection-02"
+  },
+  {
+    "split": "holdout",
+    "category": "overcorrection",
+    "surface": "slack",
+    "should_rewrite": false,
+    "input": "really nice catch on the cache prefix bug — that would've cost us",
+    "notes": "Sincere praise, em dash, adverb.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-overcorrection-03"
+  },
+  {
+    "split": "holdout",
+    "category": "overcorrection",
+    "surface": "lesson",
+    "should_rewrite": false,
+    "input": "Why does the model ignore a rule buried on line 400 of CLAUDE.md? Attention is finite, and instructions placed far from the task get less of it. That is the practical case for short contracts.",
+    "notes": "Wh- opener is the lesson's actual question.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-overcorrection-04"
+  },
+  {
+    "split": "holdout",
+    "category": "overcorrection",
+    "surface": "proposal",
+    "should_rewrite": false,
+    "input": "The integration is not real-time. Orders sync every fifteen minutes, which the client confirmed is acceptable for the warehouse use case.",
+    "notes": "Precise negation stating a real limitation.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-overcorrection-05"
+  },
+  {
+    "split": "holdout",
+    "category": "overcorrection",
+    "surface": "email",
+    "should_rewrite": false,
+    "input": "Your note said, \"Let me be clear, we will not extend the deadline.\" Understood. We will ship the reduced scope on the 30th and move reporting to phase two.",
+    "notes": "Hard tell inside quoted client text.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-overcorrection-06"
+  },
+  {
+    "split": "holdout",
+    "category": "overcorrection",
+    "surface": "workshop",
+    "should_rewrite": false,
+    "input": "The repo was forked from the baseline last month, so some skills are out of date. Run the update command first. What you'll see is a diff of every rule that changed since the fork.",
+    "notes": "Passive voice and Wh- opener, both fine.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-overcorrection-07"
+  },
+  {
+    "split": "holdout",
+    "category": "overcorrection",
+    "surface": "proposal",
+    "should_rewrite": false,
+    "input": "We actually recommend against fine-tuning here. The 300 labeled tickets you have are enough to evaluate a prompted model but not to train one, and a prompted model can be swapped when a better one ships.",
+    "notes": "'Actually' marks a real disagreement with the client's ask.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "holdout-overcorrection-08"
+  }
+]

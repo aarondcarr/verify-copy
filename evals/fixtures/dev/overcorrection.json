@@ -1,0 +1,90 @@
+[
+  {
+    "split": "dev",
+    "category": "overcorrection",
+    "surface": "proposal",
+    "should_rewrite": false,
+    "input": "The pilot actually finished a week early — the client's platform team had already automated account vending, which we had budgeted two weeks to build. We are reallocating that time to the evaluation harness.",
+    "notes": "Legit 'actually' (correcting expectation) and one em dash.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-overcorrection-01"
+  },
+  {
+    "split": "dev",
+    "category": "overcorrection",
+    "surface": "email",
+    "should_rewrite": false,
+    "input": "I really appreciate you making time on short notice. The board deck is attached; slides 4 and 9 are the ones I'd most like your read on before Friday.",
+    "notes": "One sincere 'really'. Ban-all-adverbs would flag.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-overcorrection-02"
+  },
+  {
+    "split": "dev",
+    "category": "overcorrection",
+    "surface": "lesson",
+    "should_rewrite": false,
+    "input": "The prompt was rewritten by the reviewer, and the eval scores were recomputed overnight. What changed is the ordering of examples: the failing cases now come first.",
+    "notes": "Passive voice and a Wh- opener that are fine.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-overcorrection-03"
+  },
+  {
+    "split": "dev",
+    "category": "overcorrection",
+    "surface": "proposal",
+    "should_rewrite": false,
+    "input": "This is not a lift-and-shift. Your contract with the current vendor requires re-platforming the scheduler, so we priced the work as a rebuild of 14 workflows, not a copy.",
+    "notes": "'Not X' corrects a real misconception the client stated; stays.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-overcorrection-04"
+  },
+  {
+    "split": "dev",
+    "category": "overcorrection",
+    "surface": "workshop",
+    "should_rewrite": false,
+    "input": "When should you write a skill instead of a CLAUDE.md rule? When the instructions are long, only matter for one kind of task, and would waste context the rest of the time. Otherwise, use the rule.",
+    "notes": "Wh- openers and a rhetorical question that is the actual topic.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-overcorrection-05"
+  },
+  {
+    "split": "dev",
+    "category": "overcorrection",
+    "surface": "slack",
+    "should_rewrite": false,
+    "input": "honestly no idea why the cache hit rate dropped — checking the prefix now",
+    "notes": "Casual 'honestly' and em dash in Slack.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-overcorrection-06"
+  },
+  {
+    "split": "dev",
+    "category": "overcorrection",
+    "surface": "email",
+    "should_rewrite": false,
+    "input": "The client said, \"Here's the thing: we just need it to work by March.\" I think we should take that literally and cut scope to the two workflows finance uses daily.",
+    "notes": "Hard tell inside a quotation. Gate should not rewrite a quote.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-overcorrection-07"
+  },
+  {
+    "split": "dev",
+    "category": "overcorrection",
+    "surface": "proposal",
+    "should_rewrite": false,
+    "input": "Each agent run is logged with the prompt, the tool calls, and the final diff. Reviews are assigned automatically to the code owner, and nothing merges without a human approval — that rule is enforced in branch protection, not in the agent.",
+    "notes": "Passive voice, em dash, and a 'not X' that is precise.",
+    "synthetic": true,
+    "model_hint": "synthetic-human",
+    "id": "dev-overcorrection-08"
+  }
+]
