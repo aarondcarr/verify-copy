@@ -1,0 +1,42 @@
+{
+  "description": "Look-alike before/after pairs. Not a reconstruction of an unpublished eval set.",
+  "stop_slop_pairs": 5,
+  "bakeoff_pairs": 12,
+  "bakeoff_included_ids": [
+    "holdout-classic-01",
+    "holdout-classic-06",
+    "holdout-classic-05",
+    "holdout-residual55-03",
+    "holdout-residual55-01",
+    "holdout-residual55-05",
+    "holdout-structural-02",
+    "holdout-structural-01",
+    "stress-unseen_slop-02",
+    "stress-unseen_slop-04",
+    "stress-unseen_slop-07",
+    "stress-unseen_slop-05"
+  ],
+  "bakeoff_skipped": {
+    "meaning": [
+      "holdout-classic-02",
+      "holdout-classic-04"
+    ],
+    "still_slop": [
+      "holdout-residual55-06",
+      "holdout-residual55-02",
+      "holdout-structural-03",
+      "stress-unseen_slop-03",
+      "holdout-structural-04",
+      "stress-unseen_slop-01",
+      "stress-unseen_slop-08",
+      "stress-unseen_slop-06"
+    ],
+    "flat": [
+      "holdout-classic-03"
+    ],
+    "v2_out": [
+      "holdout-residual55-04"
+    ]
+  },
+  "selection": "Sonnet 5.5 + S4b, both judges meaning_preserved and not slop, no nums_dropped, not over_flattened, v2_out_fail false"
+}

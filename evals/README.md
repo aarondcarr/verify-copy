@@ -43,3 +43,7 @@ That prints counts and a pass/fail against the default thresholds. It does not c
 - Do not tune thresholds on the holdout set.
 - Flag n < 30 per cell as too small to conclude.
 - A skill that lowers slop by wrecking voice is a loss.
+
+## Similar tests
+
+A look-alike before/after pack, not a reconstruction of any unpublished eval, lives in [fixtures/similar/](fixtures/similar/). See that README before scoring it.

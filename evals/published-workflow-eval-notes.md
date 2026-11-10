@@ -68,7 +68,7 @@ number and wording of Jev questions; question types (Noul/Choice/Score); aggrega
 | Tuned with /goal, split unknown | Frozen on dev, scored on holdout + stress | Keep our held-out protocol, which is stricter than what the post describes. |
 | Opus 5.5 lowered the slop rate | Our holdout is 47% slop | Report the gate at realistic base rates (10–25%), as `bakeoff-results.md` already does for cost. |
 
-We did not create these new fixtures. Doing so needs a decision and a human check of the labels.
+A first look-alike pack now lives in `evals/fixtures/similar/`: Hardik's public stop-slop examples, plus bakeoff rewrites that both judges cleared. Those bakeoff afters still need a human check. This is still not their unpublished set.
 
 ## Searches performed (all public)
 

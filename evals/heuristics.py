@@ -130,8 +130,11 @@ def load_fixtures(path: Path) -> list[dict]:
     files = sorted(path.rglob("*.json")) if path.is_dir() else [path]
     out = []
     for f in files:
+        if f.name == "manifest.json":
+            continue
         data = json.loads(f.read_text())
-        out.extend(data if isinstance(data, list) else [data])
+        rows = data if isinstance(data, list) else [data]
+        out.extend(row for row in rows if isinstance(row, dict) and "input" in row)
     return out
 
 
